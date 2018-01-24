@@ -1,0 +1,3 @@
+formation_exam_homepage:
+    path:     /
+    defaults: { _controller: FormationExamBundle:Default:index }

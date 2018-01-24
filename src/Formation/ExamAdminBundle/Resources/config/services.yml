@@ -1,0 +1,4 @@
+services:
+#    formation_exam_admin.example:
+#        class: Formation\ExamAdminBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
