@@ -1,9 +1,9 @@
-formation_exam_admin:
-    resource: "@FormationExamAdminBundle/Resources/config/routing.yml"
-    prefix:   /
-
 formation_exam:
     resource: "@FormationExamBundle/Resources/config/routing.yml"
+    prefix:   /
+
+formation_exam_admin:
+    resource: "@FormationExamAdminBundle/Resources/config/routing.yml"
     prefix:   /
 
 app:

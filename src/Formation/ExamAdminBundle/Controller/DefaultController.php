@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('FormationExamAdminBundle:Default:index.html.twig');
+        return $this->render('FormationExamAdminBundle:Default:index.json.twig');
     }
 }
