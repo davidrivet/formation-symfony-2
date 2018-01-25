@@ -5,3 +5,8 @@ formation_exam_homepage:
 formation_exam_examslist:
     path:     /exams/list
     defaults: { _controller: FormationExamBundle:Default:listExams }
+
+# import routes from the given controller class
+formation_exam_examdescription:
+    resource: "@FormationExamBundle/Controller/DefaultController.php"
+    type:     annotation
