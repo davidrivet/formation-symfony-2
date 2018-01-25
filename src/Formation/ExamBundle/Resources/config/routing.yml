@@ -1,3 +1,7 @@
 formation_exam_homepage:
     path:     /
     defaults: { _controller: FormationExamBundle:Default:index }
+
+formation_exam_examslist:
+    path:     /exams/list
+    defaults: { _controller: FormationExamBundle:Default:listExams }
