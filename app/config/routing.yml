@@ -4,7 +4,7 @@ formation_exam:
 
 formation_exam_admin:
     resource: "@FormationExamAdminBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /admin
 
 app:
     resource: '@AppBundle/Controller/'
