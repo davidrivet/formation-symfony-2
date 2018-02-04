@@ -1,0 +1,3 @@
+formation_sample_data_service_homepage:
+    path:     /
+    defaults: { _controller: FormationSampleDataServiceBundle:Default:index }

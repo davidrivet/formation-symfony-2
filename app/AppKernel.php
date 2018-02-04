@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new Formation\ExamBundle\FormationExamBundle(),
             new Formation\ExamAdminBundle\FormationExamAdminBundle(),
+            new Formation\SampleDataServiceBundle\FormationSampleDataServiceBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

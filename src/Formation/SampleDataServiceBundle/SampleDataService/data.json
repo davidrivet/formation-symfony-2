@@ -1,0 +1,195 @@
+{
+  "exams": [{
+    "id": 1,
+    "description": "Les capitales du monde [5].",
+    "questions": [{
+      "wording": "Quelle est la capitale de la France ?",
+      "answers": [{
+        "wording": "Tripoli", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Sarajevo", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Paris", "rank": 3, "isCorrect": "true"
+      }, {
+        "wording": "Lisbonne", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Quelle est la capitale de l'île Maurice ?",
+      "answers": [{
+        "wording": "Port-Louis", "rank": 1, "isCorrect": "true"
+      }, {
+        "wording": "New Delhi", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Madrid", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Rome", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Quelle est la capitale de Singapour ?",
+      "answers": [{
+        "wording": "Ulaan Bator", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Seoul", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Tokyo", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Myanmar", "rank": 4, "isCorrect": "false"
+      }, {
+        "wording": "Singapour", "rank": 5, "isCorrect": "true"
+      }]
+    },{
+      "wording": "Quelle est la plus haute capitale du monde ?",
+      "answers": [{
+        "wording": "Johannesbourg", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Lima", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Islamabad", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "La Paz", "rank": 4, "isCorrect": "true"
+      }]
+    },{
+      "wording": "Quelle est la capitale la plus peupl&eacute;e au monde ?",
+      "answers": [{
+        "wording": "Mexico City", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Tokyo", "rank": 2, "isCorrect": "true"
+      }, {
+        "wording": "Dakar", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Helsinki", "rank": 4, "isCorrect": "false"
+      }]
+    }]
+  },{
+    "id": 2,
+    "description": "Les animaux d'Afrique [3].",
+    "questions": [{
+      "wording": "Quelle animal de la savanne pr&eacute;sente un tr&egrave;s long cou ?",
+      "answers": [{
+        "wording": "Le gu&eacute;pard", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "La hy&egrave;ne", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Le z&egrave;bre", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "La giraffe", "rank": 4, "isCorrect": "true"
+      }]
+    },{
+      "wording": "Quelle animal est victime du trafi d'ivoire ?",
+      "answers": [{
+        "wording": "Le lion", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Le Y&eacute;ti", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "L'&eacute;l&eacute;phant", "rank": 3, "isCorrect": "true"
+      }, {
+        "wording": "Le babouin", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Quelle animal est surnomm&eacute; le roi de la jungle ?",
+      "answers": [{
+        "wording": "La gazelle Thompson", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Le lion", "rank": 2, "isCorrect": "true"
+      }, {
+        "wording": "Le gnu", "rank": 3, "isCorrect": "false"
+      }]
+    }]
+  },{
+    "id": 3,
+    "description": "Les m&eacute;taux [3].",
+    "questions": [{
+      "wording": "Quel est le m&eacute;tal qui a pour symbol chimique Cu ?",
+      "answers": [{
+        "wording": "Le zinc", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Le cuivre", "rank": 2, "isCorrect": "true"
+      }, {
+        "wording": "Le fer", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Le l&eacute;ton", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Quelle est le m&eacute;tal appel&eacute; le m&eacute;tal pr&eacute;cieux ?",
+      "answers": [{
+        "wording": "L'or", "rank": 1, "isCorrect": "true"
+      }, {
+        "wording": "L'argent", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Le bronze", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "L'acier", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Lequel de ces m&eacute;taux est liquide ?",
+      "answers": [{
+        "wording": "Le calcium", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Le silicium", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Le mercure", "rank": 3, "isCorrect": "true"
+      }, {
+        "wording": "L'aluminium", "rank": 4, "isCorrect": "false"
+      }]
+    }]
+  },{
+    "id": 4,
+    "description": "Math&eacute;matiques [5].",
+    "questions": [{
+      "wording": "Combien font 2 et 2 ?",
+      "answers": [{
+        "wording": "Quatre", "rank": 1, "isCorrect": "true"
+      }, {
+        "wording": "Six", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Douze", "rank": 3, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Quelle est la racine carr&eacute;e du produit de 18 et 2 ?",
+      "answers": [{
+        "wording": "Treize", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Dix", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Six", "rank": 3, "isCorrect": "true"
+      }, {
+        "wording": "Quatre", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Quelle est le reste de 53 diviser par 10 ?",
+      "answers": [{
+        "wording": "Dix", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Huit", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Cinq", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Trois", "rank": 4, "isCorrect": "true"
+      }, {
+        "wording": "Six", "rank": 5, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Combien font six fois sept ?",
+      "answers": [{
+        "wording": "Cinquante trois", "rank": 1, "isCorrect": "false"
+      }, {
+        "wording": "Quarante deux", "rank": 2, "isCorrect": "true"
+      }, {
+        "wording": "Seize", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Vingt sept", "rank": 4, "isCorrect": "false"
+      }]
+    },{
+      "wording": "Combien fait sept au carr&eacute; plus un ?",
+      "answers": [{
+        "wording": "Cinquante", "rank": 1, "isCorrect": "true"
+      }, {
+        "wording": "Cinquante et un", "rank": 2, "isCorrect": "false"
+      }, {
+        "wording": "Soixante deux", "rank": 3, "isCorrect": "false"
+      }, {
+        "wording": "Soixante treize", "rank": 4, "isCorrect": "false"
+      }]
+    }]
+  }]
+}
