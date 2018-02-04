@@ -9,3 +9,7 @@ formation_exam_admin:
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+formation_sample_data_service:
+    resource: "@FormationSampleDataServiceBundle/Resources/config/routing.yml"
+    prefix:   /
