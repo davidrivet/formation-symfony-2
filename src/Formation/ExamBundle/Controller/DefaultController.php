@@ -32,7 +32,12 @@ class DefaultController extends Controller
      * @Route("/exam/{id}/desc", requirements={"id" = "\d+"}, defaults={"id" = 1}, name="formation_exam_desc")
      */
     public function showExamDescriptionAction($id) {
-        return new Response("Description of the exam $id will be put here.");
+        // * affichage initial
+        //return new Response("Description of the exam $id will be put here.");
+
+        $sampleExams = $this->getSampleExams();
+
+        return $this->render("FormationExamBundle:Default:examDesc.html.twig", array("exams"=>$sampleExams, "requestedId" => $id));
     }
 
     /**

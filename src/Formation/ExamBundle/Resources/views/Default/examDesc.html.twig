@@ -1,0 +1,27 @@
+{#
+- ici nous utilisons la liste des examens passes en parametre
+si l'identifiant passe en parametre correspond a un identifiant d'examen dans
+la liste des examens passee a la page, on itere sur les questions de celui-ci
+pour les afficher
+- nous utilisons egalement le filtre raw de twig
+- nous utilisons la fonction path de twig pour construire une url de retour a
+la page d'accueil
+#}
+
+  {% for exam in exams %}
+    {% if exam.id == requestedId %}
+    <h3>Description de l'examen <h1>{{ exam.description }}</h1></h3>
+    <ul>
+      {% for question in exam.questions %}
+      <li>{{ question.wording|raw }}</li>
+      {% else %}
+      <li>Aucune question répertori&eacute;e pour cet examen.</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% else %}
+  Aucun examen trouv&eacute;
+  {% endfor %}
+<a href="{{ path('formation_exam_homepage') }}">Retour à l'accueil</a><br/>
+<br/>
+{{ global_contact_email }}
