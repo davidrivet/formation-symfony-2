@@ -7,9 +7,15 @@ pour les afficher
 - nous utilisons la fonction path de twig pour construire une url de retour a
 la page d'accueil
 #}
+{% extends "FormationExamBundle::layout.html.twig" %}
 
+{% block title %}{{ parent() }} - Liste des examens disponibles{% endblock %}
+
+{% block body %}
+  {% set found = false %}
   {% for exam in exams %}
     {% if exam.id == requestedId %}
+      {% set found = true %}
     <h3>Description de l'examen <h1>{{ exam.description|raw }}</h1></h3>
     <ul>
       {% for question in exam.questions %}
@@ -19,9 +25,13 @@ la page d'accueil
       {% endfor %}
     </ul>
     {% endif %}
-  {% else %}
-  Aucun examen trouv&eacute;
   {% endfor %}
+  {% if found == false %}
+  <div class="alert alert-danger" role="alert">
+    Aucun examen trouv&eacute; pour l'identifiant sp&eacute;cifi&eacute;.
+  </div>
+  {% endif %}
 <a href="{{ path('formation_exam_homepage') }}">Retour à l'accueil</a><br/>
 <br/>
 {{ global_contact_email }}
+{% endblock %}

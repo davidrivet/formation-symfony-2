@@ -52,5 +52,6 @@ class SampleDataService {
     }
 
     return $result;
+    //return []; // * pour tester le message d'erreur sur la page listant les examens
   }
 }

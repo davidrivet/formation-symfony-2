@@ -14,11 +14,11 @@ class DefaultController extends Controller
         //return $this->render('FormationExamBundle:Default:index.html.twig');
         // * redirection vers la route /exams/list
         // * tp-step-12
-        //return $this->redirectToRoute('formation_exam_examslist');
+        return $this->redirectToRoute('formation_exam_examslist');
         // * tp-step-15
         // * la valeur passee en parametre sera transmise dans la partie variable,
         // * l'élément dynamique de la route
-        return $this->redirectToRoute('formation_exam_desc', array("id" => 2 ));
+        //return $this->redirectToRoute('formation_exam_desc', array("id" => 2 ));
         // * modifier le nom du parametre pour voir comment l'information est
         // * passee si non reconnue comme un element dynamique de la route
         //return $this->redirectToRoute('formation_exam_desc', array("identifiant" => 2 ));

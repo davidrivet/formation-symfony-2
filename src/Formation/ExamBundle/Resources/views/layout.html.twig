@@ -1,0 +1,49 @@
+{# src/Formation/ExamBundle/Resources/views/layout.html.twig #}
+{#
+template de page generique
+devrait etre au niveau global de l'application
+
+blocs dynamiques
+titre
+feuilles css
+body
+javascript
+
+utilisation de filtre Twig : date
+#}
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}EPSIlEx - Plateforme d'examen EPSI{% endblock %}</title>
+    {% block stylesheets %}
+    {# chargement de bootstrap depuis un cdn #}
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    {% endblock %}
+  </head>
+  <body>
+    <div class="container">
+      <div id="header" class="jumbotron">
+      <h1>Portail d'examens EPSIlEx</h1>
+        <p>
+        Cette plateforme permet le passage d'examen pour entra&icirc;nement.
+        </p>
+      </div>
+      <div id="content">
+{% block body %}
+{% endblock %}
+      </div>
+      <br/>
+      <br/>
+      <footer>
+      <p>Avec EPSIlEx s'entrainer est facile. © {{ 'now'|date('Y') }}</p>
+      </footer>
+    </div>
+    {% block javascripts %}
+    {# librairies standards javascript recuperees des sites officiels ou de cdn #}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    {% endblock %}
+  </body>
+</html>

@@ -4,11 +4,19 @@
 - nous utilisons la fonction path de twig pour construire des url a partir des cles
 definies dans le fichier de routage
 #}
+{% extends "FormationExamBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Liste des examens disponibles{% endblock %}
+
+{% block body %}
 <h2>Bienvenue. Voici la liste des examens proposés.</h2>
 <ul>
   {% for exam in exams %}
   <li><a href="{{ path('formation_exam_desc', { 'id': exam.id }) }}">{{ exam.description|raw }}</a></li>
   {% else %}
-  Aucun examen trouv&eacute;
+  <div class="alert alert-danger" role="alert">
+    Aucun examen trouv&eacute;.
+  </div>
   {% endfor %}
 </ul>
+{% endblock %}
