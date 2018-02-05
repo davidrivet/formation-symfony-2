@@ -1,0 +1,14 @@
+{#
+- ici nous utilisons la liste des examens passes en parametre
+- nous utilisons egalement le filtre raw de twig
+- nous utilisons la fonction path de twig pour construire des url a partir des cles
+definies dans le fichier de routage
+#}
+<h2>Bienvenue. Voici la liste des examens proposés.</h2>
+<ul>
+  {% for exam in exams %}
+  <li><a href="{{ path('formation_exam_desc', { 'id': exam.id }) }}">{{ exam.description|raw }}</a></li>
+  {% else %}
+  Aucun examen trouv&eacute;
+  {% endfor %}
+</ul>
