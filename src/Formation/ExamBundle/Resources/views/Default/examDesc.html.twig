@@ -10,7 +10,7 @@ la page d'accueil
 
   {% for exam in exams %}
     {% if exam.id == requestedId %}
-    <h3>Description de l'examen <h1>{{ exam.description }}</h1></h3>
+    <h3>Description de l'examen <h1>{{ exam.description|raw }}</h1></h3>
     <ul>
       {% for question in exam.questions %}
       <li>{{ question.wording|raw }}</li>
