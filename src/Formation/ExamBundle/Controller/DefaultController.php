@@ -10,7 +10,11 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('FormationExamBundle:Default:index.html.twig');
+        // * affichage initial
+        //return $this->render('FormationExamBundle:Default:index.html.twig');
+        // * redirection vers la route /exams/list
+        // * tp-step-12
+        return $this->redirectToRoute('formation_exam_examslist');
     }
 
     public function listExamsAction() {
