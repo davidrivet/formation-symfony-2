@@ -14,7 +14,7 @@
         "wording": "Lisbonne", "rank": 4, "isCorrect": "false"
       }]
     },{
-      "wording": "Quelle est la capitale de l'île Maurice ?",
+      "wording": "Quelle est la capitale de l'&Icirc;le Maurice ?",
       "answers": [{
         "wording": "Port-Louis", "rank": 1, "isCorrect": "true"
       }, {

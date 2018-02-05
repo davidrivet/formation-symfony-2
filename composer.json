@@ -6,7 +6,8 @@
         "psr-4": {
             "AppBundle\\": "src/AppBundle",
             "Formation\\ExamBundle\\": "src/Formation/ExamBundle",
-            "Formation\\ExamAdminBundle\\": "src/Formation/ExamAdminBundle"
+            "Formation\\ExamAdminBundle\\": "src/Formation/ExamAdminBundle",
+            "Formation\\SampleDataServiceBundle\\": "src/Formation/SampleDataServiceBundle"
         },
         "classmap": [
             "app/AppKernel.php",
