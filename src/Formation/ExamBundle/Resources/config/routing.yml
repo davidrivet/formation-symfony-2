@@ -6,6 +6,10 @@ formation_exam_examslist:
     path:     /exams/list
     defaults: { _controller: FormationExamBundle:Default:listExams }
 
+formation_exam_adddefaultdataset:
+    path:     /exams/add/defaultdataset
+    defaults: { _controller: FormationExamBundle:DefaultDataset:addDefaultDataset }
+
 # import routes from the given controller class
 formation_exam_examdescription:
     resource: "@FormationExamBundle/Controller/DefaultController.php"
